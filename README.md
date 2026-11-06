@@ -47,6 +47,7 @@
   <a href="#b8zme-redesign">b8z.me redesign</a> ·
   <a href="#color-reference">Color reference</a> ·
   <a href="#opening-the-files">Opening the files</a> ·
+  <a href="#documentation">Documentation</a> ·
   <a href="#license">License</a>
 </p>
 
@@ -100,6 +101,11 @@ figcraft-cli render b8z-me/b8z-redesign.figcraft -o page.png             # the w
 ```
 
 The SVGs store text as outlines, so they render without the fonts installed. They display correctly in browsers and on GitHub; some librsvg-based viewers, such as GNOME's image viewer, cannot draw the glow filter on the green buttons and refuse to open them.
+
+## Documentation
+
+- [Decision records](docs/adr/README.md): why designs are FigCraft files, and future decisions.
+- [Agent guide](AGENTS.md): layout, export commands and commit rules for anyone, human or agent, adding a design.
 
 ## License
 
